@@ -16,6 +16,7 @@ import java.util.Set;
 @RestController
 @RequestMapping("albums")
 @ExposesResourceFor(Album.class)
+@CrossOrigin
 class AlbumController {
     private final AlbumService albumService;
     private final EntityLinks entityLinks;

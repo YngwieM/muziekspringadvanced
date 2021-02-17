@@ -8,7 +8,6 @@ import java.util.Set;
 
 @Entity
 @Table(name = "albums")
-@NamedAttributeNode("artiest")
 public class Album {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
